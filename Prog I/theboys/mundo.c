@@ -31,7 +31,7 @@ struct mundo *criar_mundo(){
         mundo.vetor_de_herois[i].paciencia = aleat(0, 100);
         mundo.vetor_de_herois[i].velocidade = aleat(50, 5000);
         mundo.vetor_de_herois[i].experiencia = 0;
-        mundo.vetor_de_herois[i].base = -1;
+        mundo.vetor_de_herois[i].baseAtual = -1;
         mundo.vetor_de_herois[i].status = 0;
     }
 
@@ -49,3 +49,9 @@ struct mundo *criar_mundo(){
     }
 
 } 
+
+void CHEGA(int tempo, int heroiID, int IDbase )  {
+
+    heroi->baseAtual = base;
+
+}

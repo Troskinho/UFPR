@@ -16,17 +16,6 @@
 #define N_MISSOES (T_FIM_DO_MUNDO / 100) //numero de missoes
 #define N_COMPOSTOS_V (N_HABILIDADES * 3) //numero de compostos v 
 
-//defines destinados aos tipos de eventos
-#define CHEGA 1
-#define ESPERA 2
-#define DESISTE 3
-#define AVISA 4
-#define ENTRA 5
-#define SAI 6
-#define VIAJA 7
-#define MORRE 8 
-#define MISSAO 9
-#define FIM 0
  
 
 struct heroi {
@@ -35,7 +24,7 @@ struct heroi {
     int paciencia; //indica o quao paciente o heroi eh
     int velocidade; //velocidade de deslocamento do heroi
     int experiencia; //numero de missoes que o heroi ja participou
-    int base; //base que o heroi se encontra no momento
+    int baseAtual; //base que o heroi se encontra no momento
     int status; //0 - vivo e 1 - morto
 } ;
 
