@@ -1,9 +1,0 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <stdbool.h>
-#include <time.h>
-#include "conjunto.h"
-#include "fila.h"
-#include "fprio.h"
-#include "lista.h"
-#include "mundo.h"
